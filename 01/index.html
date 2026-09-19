@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cascade · issue 01</title>
+  <meta name="description" content="3.00 onset" />
+  <meta property="og:title" content="Cascade · issue 01" />
+  <meta property="og:description" content="onset fork cascade haze" />
+  <meta property="og:image" content="https://cascade-instrument.vercel.app/og-onset.jpg" />
+  <style>
+    :root { --paper: #f3f1ec; --ink: #161616; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { background: var(--paper); color: var(--ink); }
+    body {
+      font-family: ui-monospace, "IBM Plex Mono", Menlo, Consolas, monospace;
+      -webkit-font-smoothing: antialiased;
+    }
+    header, footer {
+      padding: 28px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 16px;
+    }
+    footer { padding-bottom: 40px; }
+    .mark { font-size: 11px; letter-spacing: 0.22em; text-transform: uppercase; color: inherit; text-decoration: none; }
+    .sub, .issues { font-size: 11px; letter-spacing: 0.04em; opacity: 0.55; }
+    .issues a { color: inherit; text-decoration: none; }
+    main { display: grid; grid-template-columns: 1fr; }
+    @media (min-width: 900px) { main { grid-template-columns: 1fr 1fr; } }
+    .sky { aspect-ratio: 3 / 4; width: 100%; object-fit: cover; display: block; background: #d9d4cc; }
+    figcaption { padding: 18px 24px 22px; font-size: 13px; border-bottom: 1px solid rgba(22,22,22,0.12); }
+    figcaption .word { letter-spacing: 0.08em; }
+  </style>
+</head>
+<body>
+  <header>
+    <a class="mark" href="/">Cascade</a>
+    <div class="sub">issue 01 · four states</div>
+  </header>
+  <main>
+    <article>
+      <img class="sky" src="/onset.jpg" alt="Period-1 playa ridge" />
+      <figcaption>3.00 <span class="word">onset</span></figcaption>
+    </article>
+    <article>
+      <img class="sky" src="/fork.jpg" alt="First bifurcation" />
+      <figcaption>3.45 <span class="word">fork</span></figcaption>
+    </article>
+    <article>
+      <img class="sky" src="/cascade.jpg" alt="Period-doubling delta" />
+      <figcaption>3.54 <span class="word">cascade</span></figcaption>
+    </article>
+    <article>
+      <img class="sky" src="/haze.jpg" alt="Onset of chaos" />
+      <figcaption>3.57 <span class="word">haze</span></figcaption>
+    </article>
+  </main>
+  <footer>
+    <div>what the parameter is doing · no forecast</div>
+    <div class="issues"><a href="/01">01</a></div>
+  </footer>
+</body>
+</html>

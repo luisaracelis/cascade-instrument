@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cascade</title>
+  <meta name="description" content="3.00 onset" />
+  <meta property="og:title" content="Cascade · issue 01" />
+  <meta property="og:description" content="3.00 onset" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://cascade-instrument.vercel.app/og-onset.jpg" />
+  <style>
+    :root { --paper: #f3f1ec; --ink: #161616; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { background: var(--paper); color: var(--ink); }
+    body {
+      font-family: ui-monospace, "IBM Plex Mono", Menlo, Consolas, monospace;
+      -webkit-font-smoothing: antialiased;
+    }
+    header, footer {
+      padding: 28px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 16px;
+    }
+    footer { padding-bottom: 40px; }
+    .mark { font-size: 11px; letter-spacing: 0.22em; text-transform: uppercase; }
+    .sub, .issues { font-size: 11px; letter-spacing: 0.04em; opacity: 0.55; }
+    .issues a { color: inherit; text-decoration: none; }
+    .sky { aspect-ratio: 3 / 4; width: 100%; object-fit: cover; display: block; background: #d9d4cc; }
+    figcaption { padding: 18px 24px 22px; font-size: 13px; }
+    figcaption .word { letter-spacing: 0.08em; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="mark">Cascade</div>
+    <div class="sub">issue 01 · onset</div>
+  </header>
+  <main>
+    <article>
+      <img class="sky" src="onset.jpg" alt="Period-1 playa ridge" />
+      <figcaption>3.00 <span class="word">onset</span></figcaption>
+    </article>
+  </main>
+  <footer>
+    <div>what the parameter is doing · no forecast</div>
+    <div class="issues"><a href="/01">01</a></div>
+  </footer>
+</body>
+</html>
